@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+}
+#main-body {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  height: 590px;
+}
+
+.display {
+  width: 370px;
+  height: 80px;
+  background-color: rgb(81, 81, 81);
+  padding: 20px;
+  margin: 25px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(178, 178, 178);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 80px;
+  margin: 3px;
+  font-size: larger;
+  border-radius: 50px;
+  background-color: blanchedalmond;
+  transition: width 0.5s ease;
+}
+
+button:hover {
+  background-color: rgb(255, 199, 116);
+  width: 97px;
+}
