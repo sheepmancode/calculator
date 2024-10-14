@@ -9,11 +9,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 420px;
-  height: 590px;
 }
 
 .display {
-  width: 370px;
+  max-width: 740px;
+  min-width: 340px;
   height: 80px;
   background-color: rgb(81, 81, 81);
   padding: 20px;
@@ -23,6 +23,7 @@ body {
   font-size: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(178, 178, 178);
+  flex-shrink: 1;
 }
 
 .buttons {
@@ -32,7 +33,7 @@ body {
 }
 
 button {
-  width: 100px;
+  width: 90px;
   height: 80px;
   margin: 3px;
   font-size: larger;
@@ -42,6 +43,14 @@ button {
 }
 
 button:hover {
-  background-color: rgb(255, 199, 116);
-  width: 97px;
+  background-color: rgb(255, 216, 158);
+}
+
+.operation {
+  background-color: rgb(80, 80, 80);
+  color: rgb(207, 207, 207);
+}
+
+.equal {
+  width: 100px;
 }
